@@ -93,3 +93,63 @@
     float:left;
     width: 50px;
 }
+.navbar li{
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar a{
+  font-size: 16px;
+  text-decoration: none;
+}
+.main-background {
+  width: 100% ;
+  height:500px;
+  background-image: url(./shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:1px;
+}
+
+.main-title{
+  color: white;
+  font-size: 40px;
+  margin-top:200px;
+  text-align: center;
+  
+}
+.main-content{
+  text-align: center;
+  color: white;
+}
+.main-button{
+  width: 150px;
+  padding:15px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+.sub-background{
+  margin: auto;
+  width: 500px;
+  height:200px;
+  background-color:#ced4da;
+  padding:1px;
+  position: relative;
+  top:50px;
+}
+.sub-title{
+  margin-top:50px;
+  text-align: center;
+}
+.sub-content{
+  text-align: center;
+}
